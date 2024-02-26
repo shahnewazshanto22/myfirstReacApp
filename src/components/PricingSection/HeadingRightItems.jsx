@@ -1,0 +1,12 @@
+import React from 'react'
+
+function HeadingRightItems({ isicons, isTitle }) {
+    return (
+        <div className='w-[50%] bg-re-200 justify-center items-center  flex gap-3'>
+            <img className='w-[35px] h-[35px] p-1 bg-[#4ade80] rounded-full' src={isicons} alt="icons image" />
+            <p className=' text-lg text-[#1f2937] w-[120px]'>{isTitle}</p>
+        </div>
+    )
+}
+
+export default HeadingRightItems
