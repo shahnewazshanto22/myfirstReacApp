@@ -7,7 +7,7 @@ import CardItems from './CardItems'
 
 function ServiceRightCard() {
     return (
-        <div className='w-[50%] flex flex-wrap gap-5 justify-center text-center'>
+        <div className='w-full flex lg:w-[50%] flex-wrap gap-5 lg:gap-3 xl:gap-5 justify-center text-center'>
             <CardItems
                 icon={cardOne}
                 isHeading="SSL Certificate"

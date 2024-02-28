@@ -7,7 +7,7 @@ import FullStackDeveloper from '../../Assets/FullStackDeveloper.png'
 
 function ClientsItems() {
     return (
-        <div className='flex justify-evenly lg:flex-wrap xl:flex-nowrap gap-5'>
+        <div className='w-full md:flex lg:flex flex-wrap xl:flex-nowrap gap-5 justify-between'>
             <Clients
                 isImage={WebDeveloper}
                 myself="Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar pro."

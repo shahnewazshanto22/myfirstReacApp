@@ -9,7 +9,7 @@ import FooterContentRignt from './FooterContentRignt'
 
 function FooterMain() {
     return (
-        <div className='w-[90%] flex justify-between mx-auto'>
+        <div className='w-[90%] lg:flex justify-between mx-auto'>
             <FooterContentLeft />
             < FooterContentRignt />
 

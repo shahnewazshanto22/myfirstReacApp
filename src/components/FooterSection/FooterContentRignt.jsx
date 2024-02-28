@@ -3,7 +3,7 @@ import FooterRightItems from './FooterRightItems'
 
 function FooterContentRignt() {
     return (
-        <div className='w-[55%] flex justify-around'>
+        <div className='flex-wrap justify-between mb-7 lg:w-[55%] flex lg:flex-row lg:justify-around'>
             <FooterRightItems
                 itemsHead="PAGES"
                 isHome="home"

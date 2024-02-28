@@ -21,28 +21,28 @@ function App() {
       </div>
 
       {/************ this is Services Section  *************/}
-      <div id='services' className='services__section py-16 bg-[#e2e8f0]'>
+      <div id='services' className='services__section py-9 lg:py-16 bg-[#e2e8f0]'>
         <ServicesMain/>
       </div>
 
       {/************ this is Testimonials Section  *************/}
-      <div className='festimonials__section py-16'>
+      <div className='festimonials__section pt-12 pb-6 md:py-12 lg:py-16'>
         <Testimonials/>
       </div>
 
       {/************ this is Pricing Section  *************/}
-      <div className='pricing__section py-16 bg-[#e2e8f0]'>
+      <div className='pricing__section py-9 lg:py-16 bg-[#e2e8f0]'>
         <PricingMain/>
       </div>
 
       {/************ this is Contace Section  *************/}
-      <div className='contact__section pt-4 pb-20 bg-[#e2e8f0] flex items-center relative'>
+      <div className='contact__section pb-9 lg:pt-4 lg:pb-16 bg-[#e2e8f0] flex items-center relative'>
         <div className='w-full h-[300px] absolute bg-[#0bb827]  z-0'></div>
         <ContactMain/>
       </div>
 
        {/************ this is Footer Section  *************/}
-       <div className='footer__section bg-[#000000] py-20'>
+       <div className='footer__section bg-[#000000] pt-12 pb-7 lg:py-20'>
         <FooterMain/>
       </div>
 

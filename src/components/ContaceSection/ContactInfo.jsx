@@ -7,7 +7,7 @@ import ContactSocial from './ContactSocial'
 // import facebook from '../../Assets/facebook'
 function ContactInfo() {
     return (
-        <div className='w-[50%]'>
+        <div className='w-full lg:w-[50%] md:w-[50%]'>
             <ContactInfoInner
                 contHeader="Contact Info"
                 contcatIcon={phone}

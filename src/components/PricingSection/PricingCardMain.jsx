@@ -2,7 +2,7 @@ import React from 'react'
 import PricingCardItems from './PricingCardItems'
 function PricingCardMain() {
     return (
-        <div className='flex justify-between gap-8 flex-wrap'>
+        <div className='flex justify-between flex-wrap'>
             <PricingCardItems
                 Plan="Starter Plan"
                 money="Free"

@@ -3,7 +3,7 @@ import HeadingRightItems from './HeadingRightItems'
 import pricingChickImage from '../../Assets/pricingChickImage.svg'
 function PricingTopHeadingRight() {
     return (
-        <div className='w-[50%] flex justify-center items-center flex-wrap'>
+        <div className='lg:w-[50%] flex justify-center items-center flex-wrap'>
             <HeadingRightItems
                 isicons={pricingChickImage}
                 isTitle="Unlimited Pages"
