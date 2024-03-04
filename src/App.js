@@ -6,10 +6,10 @@ import Testimonials from './components/TestimonialSection/TestimonialsMain.jsx'
 import PricingMain from './components/PricingSection/PricingMain.jsx'
 import ContactMain from './components/ContaceSection/ContactMain.jsx';
 import FooterMain from './components/FooterSection/FooterMain.jsx';
-
+ 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/************ this is Navbar Section  *************/}
       <div className='navbar__section sticky top-0 bg-black h-20 z-50'>
       <Navbar/>
